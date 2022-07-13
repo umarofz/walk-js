@@ -26,6 +26,10 @@ elForm.addEventListener("submit", function (evt) {
   elVelo.textContent = resultVelo;
   elCar.textContent = resultCar;
   elPlane.textContent = resultPlane;
+ } else if (inputValue >= 9999999) {
+  alert("Iltimos kichikroq son kiriting !")
+ } else if (isNaN(inputValue)) {
+  alert("Iltimos faqat son kiriting")
  } else {
   alert("Iltimos musbat son kiriting !!!")
  }
