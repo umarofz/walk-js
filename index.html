@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <form class="form container" action="https://echo.htmlacademy.ru/">
+    <h2 class="form__heading">Who is the first?</h2>
+
+    <div class="wrapper">
+      <label class="label" for="input">Distance</label>
+      <input class="input1" type="text" id="input" placeholder="Please enter in kilometres!" step="0.1">
+      <button class="btn">Convert</button>
+    </div>
+
+    <ol class="form__list">
+      <li class="form__item">
+        <img src="./img/walk.png" alt="walk" width="150" height="150">
+        <h3 class="form__item-heading">Walk</h3>
+        <p class="form__item-text text__walk">0</p>
+      </li>
+
+      <li class="form__item">
+        <img src="./img/velo.png" alt="velo" width="150" height="150">
+        <h3 class="form__item-heading">Bike</h3>
+        <p class="form__item-text text__velo">0</p>
+      </li>
+
+      <li class="form__item">
+        <img src="./img/car.png" alt="car" width="150" height="150">
+        <h3 class="form__item-heading">Car</h3>
+        <p class="form__item-text text__car">0</p>
+      </li>
+
+      <li class="form__item">
+        <img src="./img/plane.png" alt="plane" width="150" height="150">
+        <h3 class="form__item-heading">Plane</h3>
+        <p class="form__item-text text__plane">0</p>
+      </li>
+    </ol>
+  </form>
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
